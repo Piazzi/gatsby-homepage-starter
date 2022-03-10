@@ -15,20 +15,13 @@ const About = () => {
         <Row style={{ marginBottom: "100px" }}>
           <Col md={6}>
             <p className="mt-4">
-              We are a company dedicated to post-construction cleaning with more
-              than 2 years of experience in the market and we proudly identify
-              ourselves as an eco-friendly high-quality service able to deliv-
-              er in a timely manner. <br />
-              <br />
-              We have trained personnel who are specialized in cleaning services
-              that cover from inside to outside, including floors, windows,
-              walls and pressure washing.
+              Aenean pellentesque odio libero, quis laoreet ligula hendrerit eu. Sed vel lorem interdum, laoreet justo vel, aliquet nibh. Sed at bibendum sapien
               <br />
               <br />
-              Our priority is to consistently pro- vide the best service to our
-              cli- ents, that is why our response times are immediate. We
-              operate from Monday to Sunday 24 hours a day, providing
-              flexibility and efficiency to our clients.
+              Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum. Cras eget pretium sapien.
+              <br />
+              <br />
+              Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor justo. Donec mattis ante eu ante mollis porta. Proin in felis scelerisque, consequat mauris ut, dignissim sem
             </p>
           </Col>
           <Col
@@ -66,15 +59,10 @@ const About = () => {
             >
               <h2 className="blue-text p-title">Our Team </h2>
               <p>
-                We provide the best post-con- struction cleaning service in
-                Vancouver and its surroundings. Our mission is to satisfy our
-                customers' needs optimally and efficiently through our ser-
-                vices.
+                Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor justo. Donec mattis ante eu ante mollis porta. Proin in felis scelerisque, consequat mauris ut, dignissim sem
                 <br />
                 <br />
-                BOSS Construction stands out for being a reliable company that
-                follows the highest quality stan- dards and prioritizes customer
-                attention above everything else.
+                Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum. Cras eget pretium sapien.
               </p>
             </Col>
           </Row>
