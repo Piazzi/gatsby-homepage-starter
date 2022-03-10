@@ -7,11 +7,11 @@ require("dotenv").config({
 module.exports = {
 
   siteMetadata: {
-    title: 'Boss Construction Cleaning',
-    description: 'Post Construction Cleaning Expert Service',
+    title: 'Gatsby Starter Homepage',
+    description: 'A starter kit for the gatsby community',
     author: 'Lucas Piazzi',
-    name: 'boss-construction-cleaning',
-    url: 'www.bosscontructioncleaning.com'
+    name: 'your-site-name-here',
+    url: 'www.your-site-url-here.com'
   },
   
   plugins: [
@@ -45,8 +45,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Boss Construction Cleaning`,
-        short_name: `Boss Construction Cleaning`,
+        name: `Gatsby Starter Homepage`,
+        short_name: `GSH`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#F59779`,
@@ -58,7 +58,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "GTM-TXTWS8D",
+        id: process.env.GOOGLE_TAG_MANAGER_ID,
   
         // Include GTM in development.
         //
