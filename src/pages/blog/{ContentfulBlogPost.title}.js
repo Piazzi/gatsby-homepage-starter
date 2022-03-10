@@ -42,7 +42,6 @@ export const query = graphql`
 `
 
 const PostTemplate = ({ data }) => {
-  console.log(data)
   const { title, text, image } = data.contentfulBlogPost
   const pathToImage = getImage(image)
   const options = {

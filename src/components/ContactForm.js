@@ -57,7 +57,7 @@ const ContactForm = ({ title }) => {
           <Col md={5} sm>
             <h2 className="blue-text form-title"> {title}</h2>
             <br />
-            <h6 className="orange-text form-subtitle">WE ARE ONE CLICK AWAY</h6>
+            <h6 className="orange-text form-subtitle">CALL TO ACTION HERE</h6>
             <Form method="POST" onSubmit={sendForm}>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Name</Form.Label>
@@ -85,10 +85,10 @@ const ContactForm = ({ title }) => {
               <Form.Label>Type of Service</Form.Label>
               <Form.Select aria-label="Default select example" name="service">
                 <option value="Construction Cleaning">
-                  Construction Cleaning
+                  Service 1
                 </option>
-                <option value="Janitorial">Janitorial</option>
-                <option value="Commercial">Commercial</option>
+                <option value="Janitorial">Service 2</option>
+                <option value="Commercial">Service 3</option>
               </Form.Select>
               <div className="d-grid gap-2 ">
                 <Button variant="info form-button" type="submit">

@@ -27,14 +27,14 @@ const Footer = () => {
                 </Col>
               </Row>
               <br />
-              <a href="https://www.facebook.com/BOSSConstructionCleaing/">
+              <a href="">
                 <StaticImage
                   className="icon fb-icon"
                   src="../assets/images/fb-icon.svg"
                   alt="icon"
                 ></StaticImage>
               </a>
-              <a href="https://www.instagram.com/bossconstructioncleaning/">
+              <a href="">
                 <StaticImage
                   className="icon ig-icon"
                   src="../assets/images/ig-icon.svg"
@@ -48,7 +48,7 @@ const Footer = () => {
                   alt="icon"
                   style={{ verticalAlign: "middle" }}
                 ></StaticImage>
-                <span>+1 778-899-2006</span>
+                <span>+1 111-111-1111</span>
                 <br />
               </div>
             </Col>
@@ -73,19 +73,19 @@ const Footer = () => {
                     to="/services/construction-cleaning"
                     className="footer-nav service-link service-dropdown-link"
                   >
-                    Post-Construction
+                    Service 1
                   </Link>
                   <Link
                     to="/services/janitorial"
                     className="footer-nav service-link service-dropdown-link"
                   >
-                    Janitorial
+                    Service 2
                   </Link>
                   <Link
                     to="/services/commercial"
                     className="footer-nav service-link service-dropdown-link"
                   >
-                    Commercial
+                    Service 3
                   </Link>
                 </Col>
               </Row>

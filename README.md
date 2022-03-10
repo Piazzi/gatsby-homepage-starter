@@ -19,8 +19,7 @@
     GATSBY_ACCESS_TOKEN=
     GOOGLE_TAG_MANAGER_ID=
     NODE_ENV=
-
-```
+    ```
 
 3.  **Start developing.**
 

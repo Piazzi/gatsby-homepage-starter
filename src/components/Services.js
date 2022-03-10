@@ -21,8 +21,8 @@ const Services = () => {
           </Col>
           <Col className="align-center">
             <h2 className="orange-text">
-              We offer a range of eco-friendly
-              <br /> high-quality cleaning services:
+              Aenean pellentesque odio libero, quis laoreet ligula hendrerit eu. 
+              <br /> Sed vel lorem interdum.
             </h2>
             <br />
             <div className="d-grid gap-4">
@@ -30,13 +30,13 @@ const Services = () => {
                 href="/services/construction-cleaning"
                 variant="outline-primary"
               >
-                Post-Construction
+                Service 1
               </Button>
               <Button href="/services/janitorial" variant="outline-primary">
-                Janitorial
+                Service 2
               </Button>
               <Button href="/services/commercial" variant="outline-primary">
-                Commercial
+                Service 3
               </Button>
             </div>
           </Col>

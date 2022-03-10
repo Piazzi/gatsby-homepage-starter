@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <Container className="banner" fluid>
       <h1 className="banner-text">
-        POST <br /> CONSTRUCTION <br /> CLEANING
+      LOREM  <br /> IPSUM <br /> DOLOR 
       </h1>
       <StaticImage
         src="../assets/images/Div.svg"
@@ -15,7 +15,7 @@ const Hero = () => {
         width={391}
         height={2}
       ></StaticImage>
-      <h6 className="banner-subtext">SERVICE YOU CAN RELY ON</h6>
+      <h6 className="banner-subtext">Donec at nulla elementum</h6>
       <a href="#services-container">
         <StaticImage
           src="../assets/images/arrow-down.svg"
