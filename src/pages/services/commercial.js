@@ -12,18 +12,16 @@ export default function Commercial() {
       <Seo title="Commercial" />
       <Container>
         <Row className="margin-top">
-          <h1 className="p-title blue-text">COMMERCIAL</h1>
+          <h1 className="p-title blue-text">SERVICE 3</h1>
           <p>
-            Today, for most large-scale businesses, image plays a very import-
-            ant role, since it is the first impression on their clients, that is
-            why we offer services with impeccable, professional and elegant
-            standards for our clients. Helping to maintain that momentum aspect
-            which represents them, our schedules are flexible and adapt- able to
-            your needs. This with the aim of not inferring in their daily
-            activities. Our specialists take care of all areas involved in
-            cleaning as well as the proper use of products to keep the
-            facilities intact. This service is quite adaptable for all indus-
-            tries regardless of the line of business.
+            Nunc sit amet risus nulla. Sed venenatis malesuada dui sit amet
+            interdum. Duis id varius orci. In sit amet iaculis justo, et
+            placerat velit. Morbi quam risus, consequat cursus sodales eget,
+            commodo vel tortor. Nulla tellus dolor, iaculis quis mollis non,
+            aliquam quis nunc. Donec rhoncus facilisis cursus. Vestibulum ante
+            ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            curae; In dictum, erat et vestibulum ornare, sapien dui porta lorem,
+            sed consectetur nibh dui eu elit.
           </p>
         </Row>
 
@@ -33,8 +31,7 @@ export default function Commercial() {
             className=" commercial-text align-center"
           >
             <h3 className="orange-text  align-left">
-              Floor and Carpet <br />
-              Cleaning
+            Aenean pellentesque odio libero
             </h3>
           </Col>
           <Col>
@@ -65,8 +62,7 @@ export default function Commercial() {
             className=" align-left"
           >
             <h3 className="orange-text ">
-              Deep Cleaning <br /> and <br />
-              Disinfecting
+            Aenean pellentesque odio libero
             </h3>
           </Col>
         </Row>
@@ -74,7 +70,7 @@ export default function Commercial() {
         <Row className="margin-top">
           <Col md={{ span: 4, offset: 2 }} style={{ alignSelf: "center" }}>
             <h3 className="orange-text">
-              Building <br /> Maintenance <br /> Services
+            Aenean pellentesque odio libero
             </h3>
           </Col>
           <Col>

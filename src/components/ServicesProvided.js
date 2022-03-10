@@ -21,7 +21,8 @@ const ServicesProvided = () => {
               ></StaticImage>
             </Col>
             <Col className="col-10">
-              Remove all construction <br /> debris
+              Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+              justo.
             </Col>
           </Row>
         </Col>
@@ -34,40 +35,8 @@ const ServicesProvided = () => {
               ></StaticImage>
             </Col>
             <Col className="col-10">
-              Dust removal from ceiling <br />
-              pipes, duct work, vents, light <br />
-              fixtures, etc.
-            </Col>
-          </Row>
-        </Col>
-      </Row>
-      <Row className="services-provided-container">
-        <Col md={6}>
-          <Row>
-            <Col className="col-2 align-center">
-              <StaticImage
-                src="../assets/images/check-icon.svg"
-                alt="check icon"
-              ></StaticImage>
-            </Col>
-            <Col className="col-10">
-              Tain removal, scrubbing, <br /> dusting and vacuuming of all{" "}
-              <br /> surfaces including trim work <br /> and office furniture.
-            </Col>
-          </Row>
-        </Col>
-        <Col md={6}>
-          <Row>
-            <Col className="col-2 align-center">
-              <StaticImage
-                src="../assets/images/check-icon.svg"
-                alt="check icon"
-              ></StaticImage>
-            </Col>
-            <Col className="col-10">
-              Full sanitizing of kitchens and <br />
-              bathrooms to make them ready <br />
-              for your use.
+              Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+              justo.
             </Col>
           </Row>
         </Col>
@@ -82,8 +51,8 @@ const ServicesProvided = () => {
               ></StaticImage>
             </Col>
             <Col className="col-10">
-              Scrub floors and tiles polish <br /> stainless steel, wipe walls{" "}
-              <br /> and more.
+              Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+              justo.
             </Col>
           </Row>
         </Col>
@@ -96,10 +65,38 @@ const ServicesProvided = () => {
               ></StaticImage>
             </Col>
             <Col className="col-10">
-              Cleaning window sills and <br />
-              frames, window and glass <br /> cleaning including scraping and{" "}
-              <br />
-              etching removal.
+              Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+              justo.
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Row className="services-provided-container">
+        <Col md={6}>
+          <Row>
+            <Col className="col-2 align-center">
+              <StaticImage
+                src="../assets/images/check-icon.svg"
+                alt="check icon"
+              ></StaticImage>
+            </Col>
+            <Col className="col-10">
+              Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+              justo.
+            </Col>
+          </Row>
+        </Col>
+        <Col md={6}>
+          <Row>
+            <Col className="col-2 align-center">
+              <StaticImage
+                src="../assets/images/check-icon.svg"
+                alt="check icon"
+              ></StaticImage>
+            </Col>
+            <Col className="col-10">
+              Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+              justo.
             </Col>
           </Row>
         </Col>

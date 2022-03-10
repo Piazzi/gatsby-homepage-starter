@@ -10,32 +10,21 @@ export default function Janitorial() {
     <Layout>
       <Seo title="Janitorial" />
       <Container className="margin-top">
-        <h1 className="p-title blue-text">JANITORIAL</h1>
+        <h1 className="p-title blue-text">SERVICE 2</h1>
         <Row>
           <Col md={6}>
             <p className="mt-4">
-              The service is performed with quality products ensuring that your
-              facilities always look the best way. We stand out for having
-              trained professionals under experienced management. <br /> <br />
-              All services are customized according to the business and the
-              service that is required. We carry out meticulous supervision in
-              order to measure our service under the parameters of efficiency
-              and effectiveness. <br /> <br />
-              This cleaning can be applied for smallerscale businesses or other
-              professional spaces, we offer a work team on a regular basis to
-              take care of the environment of your workers. <br /> <br />
-              All our staff is fully trained and supported by an experienced
-              management team, they ensure that their facilities are impeccable,
-              always seeking to maintain an environment of harmony for their
-              workers. <br /> <br />
-              Cleaning can be customized depending on the service you are
-              looking to provide for your business. We seek to optimize time and
-              be efficient to meet your needs, it is for them that we help you
-              immediately to schedule cleaning visits, always seeking to provide
-              a better service. <br /> <br />
-              All cleaning is supervised in order to provide a better service
-              with the standards that we represent as a company. We optimize
-              times and provide efficiency.
+              Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+              justo. Donec mattis ante eu ante mollis porta. Proin in felis
+              scelerisque, consequat mauris ut, dignissim sem
+              <br /> <br />
+              Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+              justo. Donec mattis ante eu ante mollis porta. Proin in felis
+              scelerisque, consequat mauris ut, dignissim sem
+              <br /> <br />
+              Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+              justo. Donec mattis ante eu ante mollis porta. Proin in felis
+              scelerisque, consequat mauris ut, dignissim sem
               <br />
             </p>
           </Col>

@@ -11,29 +11,39 @@ export default function ConstructionCleaning() {
     <Layout>
       <Seo title="Construction Cleaning" />
       <Container className="container-margin">
-        <h1 className="p-title blue-text">CONSTRUCTION CLEANING </h1>
+        <h1 className="p-title blue-text">SERVICE 1</h1>
         <p>
-          There is no better way to provide construction cleaning services than
-          with a highly trained and certified work team. We have a fairly large
-          staff that can handle jobs from new developments, commercial and
-          residential renovations. Our work metric varies depending on the
-          client, size and business.
+          Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+          justo. Donec mattis ante eu ante mollis porta. Proin in felis
+          scelerisque, consequat mauris ut, dignissim sem. Nulla mi justo,
+          lobortis nec suscipit eu, dapibus eget ligula. Fusce convallis, elit a
+          molestie gravida, arcu libero luctus purus, eget efficitur ipsum leo
+          ut odio. Etiam dolor tortor, malesuada vehicula purus eget, ultrices
+          rutrum purus. Nullam velit enim, laoreet vel lectus vel, sodales
+          placerat dui. Vivamus et tortor bibendum, varius ex eu, scelerisque
+          mi. Aliquam tempus nec libero nec pulvinar.
           <br />
           <br />
-          Our team of specialists are highly professional and stand out for
-          being meticulous and detailed in each job, always with the aim of
-          providing the best service. We seek to provide confidence and peace of
-          mind to our clients, that is why when we receive a reservation in any
-          of our services, we respond within a period of no more than 24 hours
-          after the service is requested. Cleaning services are fully customized
-          for each site, providing work equipment, labour, and cleaning
-          products.
+          Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+          justo. Donec mattis ante eu ante mollis porta. Proin in felis
+          scelerisque, consequat mauris ut, dignissim sem. Nulla mi justo,
+          lobortis nec suscipit eu, dapibus eget ligula. Fusce convallis, elit a
+          molestie gravida, arcu libero luctus purus, eget efficitur ipsum leo
+          ut odio. Etiam dolor tortor, malesuada vehicula purus eget, ultrices
+          rutrum purus. Nullam velit enim, laoreet vel lectus vel, sodales
+          placerat dui. Vivamus et tortor bibendum, varius ex eu, scelerisque
+          mi. Aliquam tempus nec libero nec pulvinar.
           <br />
           <br />
-          Our cleaning products are totally Eco-Friendly with the environment,
-          in addition to which we guarantee our clients that they are adequate
-          depending on their needs, avoiding damage to their facilities or work
-          area.
+          Curabitur hendrerit quam sed justo luctus porta. Sed egestas dolor
+          justo. Donec mattis ante eu ante mollis porta. Proin in felis
+          scelerisque, consequat mauris ut, dignissim sem. Nulla mi justo,
+          lobortis nec suscipit eu, dapibus eget ligula. Fusce convallis, elit a
+          molestie gravida, arcu libero luctus purus, eget efficitur ipsum leo
+          ut odio. Etiam dolor tortor, malesuada vehicula purus eget, ultrices
+          rutrum purus. Nullam velit enim, laoreet vel lectus vel, sodales
+          placerat dui. Vivamus et tortor bibendum, varius ex eu, scelerisque
+          mi. Aliquam tempus nec libero nec pulvinar.
         </p>
       </Container>
       <Gallery></Gallery>
