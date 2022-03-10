@@ -1,0 +1,65 @@
+
+@use 'variables' as variables;
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   
+    .service-cards-container {
+
+        text-align-last: center;
+    }
+    
+}
+
+
+
+.form-title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 79px;
+}
+
+.form-subtitle {
+    font-weight: 700;
+    size: 21px;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+
+.form-button {
+    background-color: variables.$dark-orange;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+    border-color: variables.$dark-orange;
+}
+ 
+
+.form-button:hover {
+    background-color: white;
+    border-radius: 8px;
+    color: variables.$dark-orange;
+    border-color: variables.$dark-orange;
+}
+
+.form-background {
+    background: linear-gradient(180deg, rgba(243, 243, 243, 0) 0%, #FFF6EE 94.79%);
+}
+
+.form-container {
+    padding-bottom: 60px;
+}
+
+.form-select {
+    background-image: url('../images/arrow-down.svg');
+}
+
+.btn-close {
+    background: url('../images/close-button.svg');
+    background-repeat: no-repeat;
+}
+
+.modal-header , .modal-footer {
+    border: 0px;
+}
+
+

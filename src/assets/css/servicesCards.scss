@@ -1,0 +1,26 @@
+
+@use 'variables' as variables;
+
+
+.service-cards-container {
+    margin-top: -16%;
+    margin-bottom: 5%;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin-top: 45px;
+}
+
+.service-card {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+

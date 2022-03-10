@@ -1,0 +1,8 @@
+@use 'variables' as variables;
+
+.blog-title {
+    font-weight: 700;   
+    font-size: 60px;
+    line-height: 81px;
+    color: variables.$blue;
+}

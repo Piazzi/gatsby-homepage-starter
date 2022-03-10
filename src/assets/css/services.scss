@@ -1,0 +1,24 @@
+@use 'variables' as variables;
+
+
+
+#services-container {
+    background: linear-gradient(180deg, rgba(243, 243, 243, 0) 0%, rgba(227, 238, 255, 0.68) 94.79%);
+    padding-bottom: 18%;
+}
+
+.service-icon {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.services-background {
+    background-color: white;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 60px 5px rgba(63, 105, 211, 0.1);
+    border-radius: 49px;
+    padding: 20px 20px 20px 30px;
+    margin-top: 60px;
+}
+

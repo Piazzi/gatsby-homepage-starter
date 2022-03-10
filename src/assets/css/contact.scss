@@ -1,0 +1,13 @@
+@use 'variables' as variables;
+
+h1 {
+    color: variables.$dark-orange ;
+}
+
+.map-text {
+    color: variables.$brand;
+    font-weight: 700;
+    font-size: 29px;
+    text-align: center;
+    line-height: 39px;
+}

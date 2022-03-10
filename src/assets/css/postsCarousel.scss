@@ -1,0 +1,23 @@
+@use 'variables' as variables;
+
+.react-multiple-carousel__arrow {
+    background-color: transparent !important;
+}
+
+.react-multiple-carousel__arrow::before {
+    color: variables.$blue;
+    font-size: 50px;
+}
+
+.react-multiple-carousel__arrow--left {
+    margin-left: -5.1%;
+}
+
+.react-multiple-carousel__arrow--right {
+    margin-right: -5.1%;
+}
+
+.carousel-post {
+    padding-left: 13%;
+    padding-right: 13%;
+}

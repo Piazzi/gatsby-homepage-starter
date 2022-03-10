@@ -1,0 +1,21 @@
+@use 'variables' as variables;
+
+
+.post-title {
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.post-image {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.post-container {
+    padding-left: 10%;
+    padding-right: 10%;
+}

@@ -1,0 +1,46 @@
+@use 'variables' as variables;
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   
+    .service-dropdown-link {
+        border-left: solid 1px variables.$light-blue;
+        padding-left: 5%;
+
+    }
+}
+
+
+.outer-footer {
+    background-color: variables.$neutral;
+   
+}
+
+.footer {
+   padding-top: 60px;
+   padding-bottom: 80px;
+   color: variables.$blue;
+   font-weight: 18px;
+   font-size: 13px;
+  
+}
+
+footer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer-nav {
+    padding-bottom: 25px;
+    display: block;
+}
+
+.service-link {
+    font-weight: normal !important;
+    padding-bottom: 8px;
+    font-size: 13px !important;
+    line-height: 17px !important;
+    color: variables.$blue !important;
+    
+}
+
+
+

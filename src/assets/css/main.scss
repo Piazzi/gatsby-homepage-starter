@@ -1,0 +1,170 @@
+
+@use 'variables' as variables;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+    color: variables.$blue;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+p {
+    color: rgba(98, 97, 115, 1);
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.rounded {
+    border-radius: 9px;
+}
+
+
+.btn-outline-primary {
+    color: variables.$blue ;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    border-color: #759DD9 ;
+    border-radius: 8px ;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btn-outline-primary:hover {
+    color: white ;
+    border-color: #759DD9 ;
+    background-color: variables.$blue;
+}
+
+.btn-secondary {
+    border: 2px solid #EE6A40;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #EE6A40;
+    background-color: white;
+    width: auto;
+   
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: #EE6A40;
+    border-color: white ;
+
+}
+
+.btn-container {
+    position: absolute;
+    bottom: 0;
+   
+}
+
+.orange-text {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 40px;
+    color: variables.$dark-orange;
+}
+
+.blue-text {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    color: variables.$blue;
+}
+
+.black-text {
+    color: black ;
+    text-align: center;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.align-center {
+    text-align: center;
+    align-self: center;
+
+}
+
+span {
+    display: inline-block;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+
+.wpp-icon  {
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.wpp-container {
+    background: variables.$background;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: inline-block;
+    color: variables.$blue;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.worker-image {
+    background-image: url('../images/worker-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 352px;
+    text-align: center;
+}
+
+.p-title {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.p-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container-margin {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.margin-top {
+    margin-top: 5%;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.post-title {
+    text-transform: uppercase;
+}

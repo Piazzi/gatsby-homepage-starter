@@ -1,0 +1,10 @@
+@use 'variables' as variables;
+
+.credits {
+    background-color: variables.$light-blue;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: variables.$blue;
+    font-weight: 400;
+}

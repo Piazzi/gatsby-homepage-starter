@@ -1,0 +1,45 @@
+@use 'variables' as variables;
+
+.gallery {
+    width:75%;
+    height: 100%;
+}
+.gallery-background {
+    margin-bottom: -15%;
+    text-align: -webkit-center;
+}
+
+#our-team-container {
+    background: linear-gradient(0deg, rgba(243, 243, 243, 0) 0%, #FFF6EE 94.79%);
+    padding-top: 22%;
+    margin-bottom: 5%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../images/chevron-left.svg');
+    background-size:  70px 40px;
+    height: 100%;
+    
+}
+
+.carousel-control-prev {
+    margin-left: -15% !important;
+
+}
+
+.carousel-control-next-icon {
+    background-image: url('../images/chevron-right.svg');
+    background-size:  70px 40px;
+    height: 100%;
+
+    
+}
+
+.carousel-control-next {
+    margin-right: -15%!important;
+
+}
+
+.carousel-indicators {
+    visibility: hidden;
+}

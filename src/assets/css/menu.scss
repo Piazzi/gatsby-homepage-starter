@@ -1,0 +1,123 @@
+@use "variables" as variables;
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #responsive-navbar-nav {
+    padding-left: 25%;
+  }
+
+  #menu-outer-container {
+    background: linear-gradient(0.78deg, #f2f7ff 14.26%, #ffffff 94.26%);
+    padding-bottom: 5%;
+  }
+
+  .main-menu-link {
+    margin-top: 10% !important;
+    border-bottom: 1px solid variables.$light-blue;
+  }
+
+  #mobile-logo {
+    visibility: visible !important;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .wpp-container {
+    background: #ffffff;
+    border: 0.886667px solid variables.$light-blue;
+    border-radius: 16.8467px;
+  }
+
+  .main-menu {
+    padding-bottom: 0px !important;
+  }
+
+  .social-links {
+    margin-top: 10% !important;
+    margin-bottom: 5% !important;
+  }
+}
+
+#ig-navbar {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+#fb-navbar {
+  margin-right: 0px !important;
+}
+
+#mobile-logo {
+  visibility: hidden;
+}
+
+.navbar,
+.main-menu {
+  background-color: white !important;
+}
+
+.main-menu-link {
+  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 22px;
+  color: variables.$brand !important;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+#basic-nav-dropdown {
+  color: variables.$brand !important;
+}
+
+#basic-nav-dropdown::after {
+  color: variables.$orange;
+}
+
+.dropdown-menu {
+  background-color: variables.$neutral !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../images/dropdown.svg") !important;
+}
+
+.active {
+  color: #ee6a40 !important;
+}
+
+.navbar-collapse .collapse .show {
+  background-color: linear-gradient(
+    0.78deg,
+    #f2f7ff 14.26%,
+    #ffffff 94.26%
+  ) !important;
+}
+
+.dropdown-link {
+  display: block;
+  text-align: left;
+  border: 0px;
+  border-bottom: solid 1px !important;
+  border-color: rgba(207, 224, 251, 0.7) !important;
+  color: variables.$gray !important;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  padding-left:11%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 1px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.dropdown-menu {
+  background: variables.$neutral;
+}
+
+.navbar-nav .dropdown-menu {
+  border: 0px !important;
+}
+
+.nav-link {
+  padding: 0px !important;
+}
