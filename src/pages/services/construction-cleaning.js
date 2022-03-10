@@ -34,7 +34,6 @@ export default function ConstructionCleaning() {
           in addition to which we guarantee our clients that they are adequate
           depending on their needs, avoiding damage to their facilities or work
           area.
-          
         </p>
       </Container>
       <Gallery></Gallery>

@@ -53,8 +53,8 @@ const Blog = () => {
             <h1 className=" blog-title col-md-auto">Blog</h1>
           </Col>
         </Row>
-          <HighlightPost post={posts[0]}></HighlightPost>
-          <AllPosts posts={posts.slice(1)}></AllPosts>
+        <HighlightPost post={posts[0]}></HighlightPost>
+        <AllPosts posts={posts.slice(1)}></AllPosts>
       </Container>
     </Layout>
   )

@@ -20,7 +20,7 @@ const Services = () => {
             </div>
           </Col>
           <Col className="align-center">
-            <h2 className="orange-text" >
+            <h2 className="orange-text">
               We offer a range of eco-friendly
               <br /> high-quality cleaning services:
             </h2>
@@ -41,7 +41,6 @@ const Services = () => {
             </div>
           </Col>
         </Row>
-        
       </Container>
     </Container>
   )

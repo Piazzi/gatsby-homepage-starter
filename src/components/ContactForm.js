@@ -4,8 +4,8 @@ import Button from "react-bootstrap/Button"
 import { StaticImage } from "gatsby-plugin-image"
 import Modal from "react-bootstrap/Modal"
 import { useState } from "react"
-import '../assets/css/contactForm.scss'
-import { useLocation } from '@reach/router';
+import "../assets/css/contactForm.scss"
+import { useLocation } from "@reach/router"
 
 export function janitorialWorker() {
   return <StaticImage src="../assets/images/worker7.svg" alt="A worker" />
@@ -15,12 +15,13 @@ export function formWorker() {
   return <StaticImage src="../assets/images/worker8.png" alt="A worker" />
 }
 
-
 const ContactForm = ({ title }) => {
-  
-  let location = useLocation();
-  const formImage = location.pathname  === '/services/commercial'? janitorialWorker() : formWorker();
-  const postURL = process.env.GATSBY_GET_FORM_UR_02
+  let location = useLocation()
+  const formImage =
+    location.pathname === "/services/commercial"
+      ? janitorialWorker()
+      : formWorker()
+  const postURL = "WHERE_YOU_WANT_TO_SEND_THE_FORM"
   const [show, setShow] = useState(false)
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
@@ -105,10 +106,14 @@ const ContactForm = ({ title }) => {
               </div>
             </Form>
           </Col>
-          <Col sm={12} lg={7} md={7} className="d-none d-md-block" style={{ alignSelf: "center" }}>
-            <div className="worker-image ">
-              {formImage}
-            </div>
+          <Col
+            sm={12}
+            lg={7}
+            md={7}
+            className="d-none d-md-block"
+            style={{ alignSelf: "center" }}
+          >
+            <div className="worker-image ">{formImage}</div>
           </Col>
         </Row>
         <div>

@@ -28,13 +28,16 @@ export default function Commercial() {
         </Row>
 
         <Row className="margin-top">
-          <Col md={{ span: 4, offset: 2 }} className=" commercial-text align-center">
+          <Col
+            md={{ span: 4, offset: 2 }}
+            className=" commercial-text align-center"
+          >
             <h3 className="orange-text  align-left">
               Floor and Carpet <br />
               Cleaning
             </h3>
           </Col>
-          <Col  >
+          <Col>
             <StaticImage
               src="../../assets/images/commercial-image-2.jpg"
               alt="commercial building "
@@ -46,18 +49,17 @@ export default function Commercial() {
         </Row>
 
         <Row className="margin-top">
-          <Col md={{ span: 4, offset: 2 }} >
+          <Col md={{ span: 4, offset: 2 }}>
             <StaticImage
               src="../../assets/images/commercial-image.jpg"
               alt="commercial building "
               width={416}
               height={302}
               className="rounded"
-
             ></StaticImage>
           </Col>
           <Col
-          style={{alignSelf: "center"}}
+            style={{ alignSelf: "center" }}
             xs={{ order: "first" }}
             lg={{ order: "last" }}
             className=" align-left"
@@ -70,12 +72,12 @@ export default function Commercial() {
         </Row>
 
         <Row className="margin-top">
-          <Col md={{ span: 4, offset: 2 }} style={{alignSelf: "center"}}>
+          <Col md={{ span: 4, offset: 2 }} style={{ alignSelf: "center" }}>
             <h3 className="orange-text">
               Building <br /> Maintenance <br /> Services
             </h3>
           </Col>
-          <Col  >
+          <Col>
             <StaticImage
               src="../../assets/images/commercial-home.jpg"
               alt="commercial building "

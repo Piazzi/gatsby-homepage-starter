@@ -29,7 +29,6 @@ const About = () => {
               cli- ents, that is why our response times are immediate. We
               operate from Monday to Sunday 24 hours a day, providing
               flexibility and efficiency to our clients.
-        
             </p>
           </Col>
           <Col
@@ -37,13 +36,12 @@ const About = () => {
             lg={{ order: "last" }}
             md={6}
             className="align-center"
-            style={{    marginTop: "-5%"}}
+            style={{ marginTop: "-5%" }}
           >
             <StaticImage
               className="worker-image"
               src="../assets/images/Aboutus_Illustration.png"
               alt="workers"
-             
             ></StaticImage>
           </Col>
         </Row>
@@ -51,31 +49,35 @@ const About = () => {
       <Gallery></Gallery>
       <Container fluid id="our-team-container">
         <Container>
-        <Row>
-          <Col style={{ alignSelf: "center" }} md={6}>
-            <div className="worker-image">
-              <StaticImage
-                src="../assets/images/workers.jpg"
-                alt="worker"
-              
-                className="rounded"
-              ></StaticImage>
-            </div>
-          </Col>
-          <Col style={{alignSelf: "center"}} xs={{ order: "first" }} lg={{ order: "last" }}>
-            <h2 className="blue-text p-title">Our Team </h2>
-            <p>
-              We provide the best post-con- struction cleaning service in
-              Vancouver and its surroundings. Our mission is to satisfy our
-              customers' needs optimally and efficiently through our ser- vices.
-              <br />
-              <br />
-              BOSS Construction stands out for being a reliable company that
-              follows the highest quality stan- dards and prioritizes customer
-              attention above everything else.
-            </p>
-          </Col>
-        </Row>
+          <Row>
+            <Col style={{ alignSelf: "center" }} md={6}>
+              <div className="worker-image">
+                <StaticImage
+                  src="../assets/images/workers.jpg"
+                  alt="worker"
+                  className="rounded"
+                ></StaticImage>
+              </div>
+            </Col>
+            <Col
+              style={{ alignSelf: "center" }}
+              xs={{ order: "first" }}
+              lg={{ order: "last" }}
+            >
+              <h2 className="blue-text p-title">Our Team </h2>
+              <p>
+                We provide the best post-con- struction cleaning service in
+                Vancouver and its surroundings. Our mission is to satisfy our
+                customers' needs optimally and efficiently through our ser-
+                vices.
+                <br />
+                <br />
+                BOSS Construction stands out for being a reliable company that
+                follows the highest quality stan- dards and prioritizes customer
+                attention above everything else.
+              </p>
+            </Col>
+          </Row>
         </Container>
       </Container>
       <ContactForm title="GET IN TOUCH!"></ContactForm>

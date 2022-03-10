@@ -7,7 +7,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { BLOCKS } from "@contentful/rich-text-types"
 import { renderRichText } from "gatsby-source-contentful/rich-text"
 import slugify from "slugify"
-import '../assets/css/postsCarousel.scss'
+import "../assets/css/postsCarousel.scss"
 
 const query = graphql`
   {
@@ -62,7 +62,7 @@ const PostsCarousel = () => {
   const posts = data.allContentfulBlogPost.edges
 
   return (
-    <Container  className="container-margin">
+    <Container className="container-margin">
       <Carousel
         swipeable={true}
         draggable={true}
@@ -87,28 +87,32 @@ const PostsCarousel = () => {
             slugify(title.replace("|", ""), { lower: true, ignore: "|" })
 
           return (
-            
-            <Col id={id} key={index} md={12} className="carousel-post h-100 d-flex flex-column ">
-            <GatsbyImage
-              className="rounded"
-              image={pathToImage}
-              alt={title}
-              width={251}
-              height={227}
-            ></GatsbyImage>
-            <h6 className="blue-text card-title ">{title}</h6>
-            <p className="card-text">
-              {renderRichText(text, options)[0].props.children[0].substring(
-                0,
-                200
-              )}
-            </p>
-            <div className="d-grid gap-2 mt-auto">
-              <Button href={`/${slug}`} variant="secondary" size="lg">
-                read more
-              </Button>
-            </div>
-          </Col>
+            <Col
+              id={id}
+              key={index}
+              md={12}
+              className="carousel-post h-100 d-flex flex-column "
+            >
+              <GatsbyImage
+                className="rounded"
+                image={pathToImage}
+                alt={title}
+                width={251}
+                height={227}
+              ></GatsbyImage>
+              <h6 className="blue-text card-title ">{title}</h6>
+              <p className="card-text">
+                {renderRichText(text, options)[0].props.children[0].substring(
+                  0,
+                  200
+                )}
+              </p>
+              <div className="d-grid gap-2 mt-auto">
+                <Button href={`/${slug}`} variant="secondary" size="lg">
+                  read more
+                </Button>
+              </div>
+            </Col>
           )
         })}
       </Carousel>

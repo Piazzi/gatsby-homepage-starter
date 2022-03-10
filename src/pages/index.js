@@ -10,7 +10,7 @@ import ServicesCards from "../components/ServicesCards"
 export default function Home() {
   return (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Home"/>
     <Hero></Hero>
     <Services></Services>
     <ServicesCards></ServicesCards>

@@ -1,6 +1,5 @@
 @use 'variables' as variables;
 
-
 .banner-text {
     font-weight: 700;
     font-size: 45px;
@@ -14,11 +13,9 @@
     padding-bottom: 150px;
     background-repeat: no-repeat;
     background-position: left;
-    background: linear-gradient(357.07deg, #FFFFFF -19.43%, rgba(255, 216, 187, 0.88) 47.74%, rgba(148, 191, 255, 0.56) 137.32%)
-    , url('../images/banner.png');
+    background: linear-gradient(357.07deg, #FFFFFF -19.43%, rgba(255, 216, 187, 0.88) 47.74%, rgba(148, 191, 255, 0.56) 137.32%), url('../images/banner.png');
     backdrop-filter: blur(1.77049px);
     margin-bottom: -50px;
-
 }
 
 .banner-subtext {

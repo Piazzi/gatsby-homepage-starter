@@ -10,7 +10,7 @@ const Contact = () => {
         <Layout>
             <Seo title="Contact Us" />
             <ContactForm title="Contact Us"></ContactForm>'
-            <Location ></Location>
+            <Location></Location>
         </Layout>
     )
 }

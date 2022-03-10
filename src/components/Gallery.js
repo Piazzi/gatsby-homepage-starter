@@ -34,7 +34,6 @@ const Gallery = () => {
         height={415}
       />
     ),
-    
   }
   const constructionCleaningImages = {
     firstImage: (
@@ -64,8 +63,6 @@ const Gallery = () => {
         height={415}
       />
     ),
-    
-   
   }
 
   let galleryImages

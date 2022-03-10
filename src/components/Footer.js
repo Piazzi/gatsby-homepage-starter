@@ -28,19 +28,19 @@ const Footer = () => {
               </Row>
               <br />
               <a href="https://www.facebook.com/BOSSConstructionCleaing/">
-              <StaticImage
-                className="icon fb-icon"
-                src="../assets/images/fb-icon.svg"
-                alt="icon"
+                <StaticImage
+                  className="icon fb-icon"
+                  src="../assets/images/fb-icon.svg"
+                  alt="icon"
                 ></StaticImage>
-                </a>
-                <a href="https://www.instagram.com/bossconstructioncleaning/">
-              <StaticImage
-                className="icon ig-icon"
-                src="../assets/images/ig-icon.svg"
-                alt="icon"
+              </a>
+              <a href="https://www.instagram.com/bossconstructioncleaning/">
+                <StaticImage
+                  className="icon ig-icon"
+                  src="../assets/images/ig-icon.svg"
+                  alt="icon"
                 ></StaticImage>
-                </a>
+              </a>
               <div className="wpp-container" style={{ marginTop: "-1%" }}>
                 <StaticImage
                   className="icon "

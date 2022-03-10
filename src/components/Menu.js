@@ -13,14 +13,14 @@ const Menu = () => {
       <Navbar sticky="top" className="main-menu" collapseOnSelect expand="lg">
         <Container id="menu-outer-container">
           <Link to="/">
-          <StaticImage
-            id="logo"
-            src="../assets/images/logo.png"
-            alt="logo"
-            width={220}
-            height={105}
+            <StaticImage
+              id="logo"
+              src="../assets/images/logo.png"
+              alt="logo"
+              width={220}
+              height={105}
             ></StaticImage>
-            </Link>
+          </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto" style={{ margin: "auto" }}>
@@ -134,7 +134,6 @@ const Menu = () => {
                     id="mobile-logo"
                     src="../assets/images/logo.svg"
                     alt="logo"
-                   
                   ></StaticImage>
                 </Col>
               </Row>

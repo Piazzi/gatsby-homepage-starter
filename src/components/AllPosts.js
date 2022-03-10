@@ -23,7 +23,12 @@ const AllPosts = ({ posts }) => {
           slugify(title.replace("|", ""), { lower: true, ignore: "|" })
 
         return (
-          <Col key={id} id={index} md={4} className="post-card d-flex flex-column ">
+          <Col
+            key={id}
+            id={index}
+            md={4}
+            className="post-card d-flex flex-column "
+          >
             <GatsbyImage
               className="rounded"
               image={pathToImage}
