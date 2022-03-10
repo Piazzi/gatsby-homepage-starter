@@ -5,12 +5,12 @@ import "../assets/css/contact.scss"
 const Location = () => {
   return (
     <Container className="container-margin align-center">
-      <h2 className="map-text">SERVING VANCOUVER AND SURROUNDING AREAS</h2>
+      <h2 className="map-text">Aenean pellentesque odio libero, quis laoreet ligula hendrerit eu. Sed vel lorem interdum</h2>
 
       <iframe
         className="margin-top "
         title="google-map"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.2610381017075!2d-123.117535!3d49.283398!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486717f4f9d4655%3A0x8a83cf0632d4facf!2s701%20W%20Georgia%20St%20%231500%2C%20Vancouver%2C%20BC%20V7Y%201G5%2C%20Canad%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1637255088853!5m2!1spt-BR!2sbr"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.35775826377!2d-123.19394339708828!3d49.257826319982065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC%2C%20Canad%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1646945152178!5m2!1spt-BR!2sbr"
         width="100%"
         height="511px"
         style={{ border: 0 }}
@@ -20,5 +20,4 @@ const Location = () => {
     </Container>
   )
 }
-
 export default Location

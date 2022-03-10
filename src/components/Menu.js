@@ -55,7 +55,7 @@ const Menu = () => {
                   className="main-menu-link dropdown-link"
                   activeClassName="active"
                 >
-                  Post-Construction
+                  Service 1
                 </Link>
                 <Link
                   to="/services/janitorial"
@@ -63,14 +63,14 @@ const Menu = () => {
                   activeClassName="active"
                 >
                   {" "}
-                  Janitorial
+                  Service 2
                 </Link>
                 <Link
                   to="/services/commercial"
                   className="main-menu-link  dropdown-link"
                   activeClassName="active"
                 >
-                  Commercial
+                  Service 3
                 </Link>
               </NavDropdown>
               <Link
@@ -97,14 +97,14 @@ const Menu = () => {
                         src="../assets/images/wpp-icon.svg"
                         alt="wpp-icon"
                       ></StaticImage>
-                      +1 778-899-2006
+                      +1 111-111-1111
                     </div>
                   </a>
                 </Col>
                 <Col className="col-auto mt-1 align-center">
                   <a
                     id="fb-navbar"
-                    href="https://www.facebook.com/BOSSConstructionCleaing/"
+                    href=""
                     className="main-menu-link"
                   >
                     <StaticImage
@@ -118,7 +118,7 @@ const Menu = () => {
                 <Col className="col-auto mt-1  align-center">
                   <a
                     id="ig-navbar"
-                    href="https://www.instagram.com/bossconstructioncleaning/"
+                    href=""
                     className="main-menu-link"
                   >
                     <StaticImage
