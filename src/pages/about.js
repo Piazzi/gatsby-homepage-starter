@@ -1,10 +1,10 @@
-import React from "react"
-import { Col, Container, Row } from "react-bootstrap"
-import Layout from "../components/Layout"
-import { StaticImage } from "gatsby-plugin-image"
-import Gallery from "../components/Gallery"
 import ContactForm from "../components/ContactForm"
+import Gallery from "../components/Gallery"
+import Layout from "../components/Layout"
+import React from "react"
 import Seo from "../components/SEO"
+import { Col, Container, Row } from "react-bootstrap"
+import { StaticImage } from "gatsby-plugin-image"
 
 const About = () => {
   return (

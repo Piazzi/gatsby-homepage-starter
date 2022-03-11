@@ -1,11 +1,11 @@
-import React from "react"
+import "../assets/css/menu.scss"
 import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
-import { Col, Container, Row } from "react-bootstrap"
-import { StaticImage } from "gatsby-plugin-image"
 import Navbar from "react-bootstrap/Navbar"
+import React from "react"
+import { Col, Container, Row } from "react-bootstrap"
 import { Link } from "gatsby"
-import "../assets/css/menu.scss"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Menu = () => {
   return (
@@ -102,7 +102,7 @@ const Menu = () => {
                 <Col className="col-auto mt-1 align-center">
                   <a
                     id="fb-navbar"
-                    href=""
+                    href="facebook.com"
                     className="main-menu-link"
                   >
                     <StaticImage
@@ -116,7 +116,7 @@ const Menu = () => {
                 <Col className="col-auto mt-1  align-center">
                   <a
                     id="ig-navbar"
-                    href=""
+                    href="instagram.com"
                     className="main-menu-link"
                   >
                     <StaticImage

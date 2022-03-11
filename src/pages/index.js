@@ -1,11 +1,10 @@
-import React from "react"
-import Layout from "../components/Layout"
-import Hero from "../components/Hero"
-import Services from "../components/Services"
 import ContactForm from "../components/ContactForm"
+import Hero from "../components/Hero"
+import Layout from "../components/Layout"
+import React from "react"
 import Seo from "../components/SEO"
+import Services from "../components/Services"
 import ServicesCards from "../components/ServicesCards"
-
 
 export default function Home() {
   return (
