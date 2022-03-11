@@ -57,11 +57,11 @@ const ContactForm = ({ title }) => {
           <Col md={5} sm>
             <h2 className="blue-text form-title"> {title}</h2>
             <br />
-            <h6 className="orange-text form-subtitle">CALL TO ACTION HERE</h6>
+            <p className="orange-text form-subtitle">CALL TO ACTION HERE</p>
             <Form method="POST" onSubmit={sendForm}>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Name</Form.Label>
-                <Form.Control name="name" type="text" placeholder="" />
+                <Form.Control name="name" type="text" />
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -83,7 +83,7 @@ const ContactForm = ({ title }) => {
               </Form.Group>
 
               <Form.Label>Type of Service</Form.Label>
-              <Form.Select aria-label="Default select example" name="service">
+              <Form.Select aria-label="Select" name="service">
                 <option value="Construction Cleaning">
                   Service 1
                 </option>

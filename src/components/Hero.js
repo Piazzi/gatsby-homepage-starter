@@ -15,7 +15,7 @@ const Hero = () => {
         width={391}
         height={2}
       ></StaticImage>
-      <h6 className="banner-subtext">Donec at nulla elementum</h6>
+      <p className="banner-subtext">Donec at nulla elementum</p>
       <a href="#services-container">
         <StaticImage
           src="../assets/images/arrow-down.svg"

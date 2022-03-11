@@ -61,7 +61,6 @@ const Menu = () => {
                   className="main-menu-link  dropdown-link"
                   activeClassName="active"
                 >
-                  {" "}
                   Service 2
                 </Link>
                 <Link

@@ -15,7 +15,7 @@ const ServicesCards = () => {
             height={77}
             className="service-icon"
           ></StaticImage>
-          <h6 className="blue-text">Service 1</h6>
+          <p className="blue-text">Service 1</p>
           <p className="black-text">
             Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
             faucibus nibh.
@@ -29,7 +29,7 @@ const ServicesCards = () => {
             height={77}
             className="service-icon"
           ></StaticImage>
-          <h6 className="blue-text">Service 2</h6>
+          <p className="blue-text">Service 2</p>
           <p className="black-text">
             Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
             faucibus nibh.
@@ -43,7 +43,7 @@ const ServicesCards = () => {
             height={74}
             className="service-icon"
           ></StaticImage>
-          <h6 className="blue-text">Service 3</h6>
+          <p className="blue-text">Service 3</p>
           <p className="black-text">
             Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
             faucibus nibh.

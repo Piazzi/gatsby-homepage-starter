@@ -27,14 +27,14 @@ const Footer = () => {
                 </Col>
               </Row>
               <br />
-              <a href="">
+              <a href="facebook.com">
                 <StaticImage
                   className="icon fb-icon"
                   src="../assets/images/fb-icon.svg"
                   alt="icon"
                 ></StaticImage>
               </a>
-              <a href="">
+              <a href="instagram.com">
                 <StaticImage
                   className="icon ig-icon"
                   src="../assets/images/ig-icon.svg"
