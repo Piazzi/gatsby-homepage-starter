@@ -91,7 +91,7 @@ const ContactForm = ({ title }) => {
                 <option value="Commercial">Service 3</option>
               </Form.Select>
               <div className="d-grid gap-2 ">
-                <Button variant="info form-button" type="submit">
+                <Button variant="secondary form-button" type="submit">
                   Request a Quote
                 </Button>
               </div>

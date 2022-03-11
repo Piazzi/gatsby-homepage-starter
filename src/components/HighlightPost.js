@@ -40,7 +40,7 @@ const HighlightPost = ({ post }) => {
           ></GatsbyImage>
         </Col>
         <Col className="align-center align-left">
-          <h6 className="p-title blue-text post-title">{title}</h6>
+          <h4 className="p-title blue-text post-title">{title}</h4>
           <p>{renderRichText(text, options)[0]}</p>
           <Link key={id} to={`/${slug}`}>
             <Button id="highlight-post-button" variant="secondary" size="md">
