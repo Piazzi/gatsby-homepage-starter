@@ -17,7 +17,8 @@ const ServicesCards = () => {
           ></StaticImage>
           <h6 className="blue-text">Service 1</h6>
           <p className="black-text">
-           Service 1 description 
+            Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
+            faucibus nibh.
           </p>
         </Col>
         <Col md={4} className="align-center">
@@ -30,7 +31,8 @@ const ServicesCards = () => {
           ></StaticImage>
           <h6 className="blue-text">Service 2</h6>
           <p className="black-text">
-            Service 2 description 
+            Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
+            faucibus nibh.
           </p>
         </Col>
         <Col md={4} className="align-center">
@@ -43,7 +45,8 @@ const ServicesCards = () => {
           ></StaticImage>
           <h6 className="blue-text">Service 3</h6>
           <p className="black-text">
-            Service 3 description 
+            Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
+            faucibus nibh.
           </p>
         </Col>
       </Row>
@@ -61,7 +64,9 @@ const ServicesCards = () => {
           />
           <h6 className="blue-text card-title ">SERVICE 1</h6>
           <p className="card-text ">
-          Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum. Cras eget pretium sapien, vel consequat nisl. In ac commodo nisi.  
+            Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
+            faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum.
+            Cras eget pretium sapien, vel consequat nisl. In ac commodo nisi.
           </p>
           <div className="d-grid gap-2 mt-auto ">
             <Button href="/services/commercial" variant="secondary">
@@ -82,7 +87,9 @@ const ServicesCards = () => {
           />
           <h6 className="blue-text card-title">SERVICE 2</h6>
           <p className="card-text">
-          Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum. Cras eget pretium sapien, vel consequat nisl. In ac commodo nisi.  
+            Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
+            faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum.
+            Cras eget pretium sapien, vel consequat nisl. In ac commodo nisi.
           </p>
           <div className="d-grid gap-2 mt-auto">
             <Button href="/services/janitorial" variant="secondary">
@@ -103,7 +110,9 @@ const ServicesCards = () => {
           />
           <h6 className="blue-text card-title">SERVICE 3</h6>
           <p className="card-text">
-          Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum. Cras eget pretium sapien, vel consequat nisl. In ac commodo nisi.  
+            Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
+            faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum.
+            Cras eget pretium sapien, vel consequat nisl. In ac commodo nisi.
           </p>
           <div className="d-grid gap-2 mt-auto ">
             <Button href="/services/construction-cleaning" variant="secondary">

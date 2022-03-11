@@ -98,10 +98,9 @@ const ContactForm = ({ title }) => {
               <br />
               <div className="align-center">
                 <StaticImage
-                  src="../assets/images/logo.svg"
+                  src="../assets/images/form-logo.png"
                   alt="logo"
-                  width={141}
-                  height={68}
+                
                 ></StaticImage>
               </div>
             </Form>

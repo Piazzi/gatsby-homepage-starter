@@ -21,8 +21,8 @@ const Footer = () => {
                 </Col>
                 <Col>
                   <span>
-                    701 West Georgia street Unit 1500, <br />
-                    Vancouver, BC V7Y 1C6
+                    101 Your street Unit 1500, <br />
+                    Vancouver, BC V8A 1T6
                   </span>
                 </Col>
               </Row>

@@ -17,8 +17,7 @@ const Menu = () => {
               id="logo"
               src="../assets/images/logo.png"
               alt="logo"
-              width={220}
-              height={105}
+             
             ></StaticImage>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
