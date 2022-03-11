@@ -59,12 +59,12 @@ const ContactForm = ({ title }) => {
             <br />
             <p className="orange-text form-subtitle">CALL TO ACTION HERE</p>
             <Form method="POST" onSubmit={sendForm}>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Group className="mb-3" controlId="formName">
                 <Form.Label>Name</Form.Label>
                 <Form.Control name="name" type="text" />
               </Form.Group>
 
-              <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Group className="mb-3" controlId="formPhoneNumber">
                 <Form.Label>Phone number</Form.Label>
                 <Form.Control
                   name="phone"

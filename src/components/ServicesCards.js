@@ -62,7 +62,7 @@ const ServicesCards = () => {
             width={308}
             height={231}
           />
-          <h6 className="blue-text card-title ">SERVICE 1</h6>
+          <p className="blue-text card-title ">SERVICE 1</p>
           <p className="card-text ">
             Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
             faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum.
@@ -85,7 +85,7 @@ const ServicesCards = () => {
             width={308}
             height={231}
           />
-          <h6 className="blue-text card-title">SERVICE 2</h6>
+          <p className="blue-text card-title">SERVICE 2</p>
           <p className="card-text">
             Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
             faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum.
@@ -108,7 +108,7 @@ const ServicesCards = () => {
             width={308}
             height={231}
           />
-          <h6 className="blue-text card-title">SERVICE 3</h6>
+          <p className="blue-text card-title">SERVICE 3</p>
           <p className="card-text">
             Aenean aliquet arcu id convallis volutpat. Nulla et varius ipsum, at
             faucibus nibh. Ut ligula ex, tempus ac tempor a, dapibus ac ipsum.
